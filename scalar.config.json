@@ -24,7 +24,7 @@
             "title": "Public APIs",
             "mode": "flat",
             "children": {
-              "/": {
+              "/spectre-api": {
                 "type": "link",
                 "title": "Spectre API",
                 "url": "https://developers-beta.street.co.uk/docs/spectre-api-docs",

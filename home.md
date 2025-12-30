@@ -23,26 +23,36 @@ Dig into our documentation to see what you can create today!
 
 Take a look at our APIs and imagine what you could build.
 
+::::scalar-tabs
+
+:::scalar-tab{ title="Street Open API" }
 **Street Open API**
 
 Build on top of the UKs most advanced Estate Agency software.
 
 - [Getting Started](/docs/street-open-api)
 - [API Reference](/docs/street-open-api/api-reference)
+:::
 
+:::scalar-tab{ title="Property Feed" }
 **Property Feed**
 
 Power searching and listing properties on your websites.
 
 - [Getting Started](/docs/street-property-feed-api)
-- [Getting Started](/docs/street-property-feed-api/api-reference)
+- [API Reference](/docs/street-property-feed-api/api-reference)
+:::
 
+:::scalar-tab{ title="Insights" }
 **Insights**
 
 Generate detailed and comprehensive property reports for your clients.
 
 - Getting Started
 - API Reference
+:::
+
+::::
 
 ---
 
@@ -71,16 +81,15 @@ Please do! Feel free to [submit a ticket](http://api-support.street.co.uk/) and 
 Get in touch and let us know how we can help.
 
 ::::scalar-tabs
-:::scalar-tab{ title="Helpdesk" }
 
+:::scalar-tab{ title="Helpdesk" }
 Create a support ticket via our API Support Helpdesk.
 
 [Submit a Ticket](http://api-support.street.co.uk/)
-
 :::
+
 :::scalar-tab{ title="Contact Support" }
-
 Contact support at [apis@street.co.uk](mailto:apis@street.co.uk) to get help from our team of in-house experts.
-
 :::
+
 ::::
