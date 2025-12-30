@@ -70,13 +70,17 @@ Please do! Feel free to [submit a ticket](http://api-support.street.co.uk/) and 
 
 Get in touch and let us know how we can help.
 
-Helpdesk
+::::scalar-tabs
+:::scalar-tab{ title="Helpdesk" }
 
-Create a support ticket via our API Support Helpdesk
+Create a support ticket via our API Support Helpdesk.
 
 [Submit a Ticket](http://api-support.street.co.uk/)
 
-
-Contact Support
+:::
+:::scalar-tab{ title="Contact Support" }
 
 Contact support at [apis@street.co.uk](mailto:apis@street.co.uk) to get help from our team of in-house experts.
+
+:::
+::::
