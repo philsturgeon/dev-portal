@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cdn.scalar.com/schema/scalar-config-next.json",
+  "scalar": "2.0.0",
+  "publishOnMerge": true,
+  "navigation": {
+    "routes": {
+      "/": {
+        "type": "group",
+        "title": "Street Docs",
+        "children": {
+          "/": {
+            "type": "page",
+            "title": "Home",
+            "icon": "phosphor/bold/house",
+            "filepath": "home.html",
+            "layout": {
+              "toc": false,
+              "pageActions": false,
+              "pageTitle": false
+            }
+          },
+          "/public-apis": {
+            "type": "group",
+            "title": "Public APIs",
+            "mode": "flat",
+            "children": {
+              "/": {
+                "type": "link",
+                "title": "Spectre API",
+                "url": "https://developers-beta.street.co.uk/docs/spectre-api-docs",
+                "newTab": false
+              },
+              "/open-api": {
+                "type": "link",
+                "title": "Street Open API",
+                "url": "https://developers-beta.street.co.uk/docs/street-open-api",
+                "newTab": false
+              },
+              "/property-feed": {
+                "type": "link",
+                "title": "Street Property Feed",
+                "url": "https://developers-beta.street.co.uk/docs/street-property-feed-api",
+                "newTab": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "siteConfig": {
+    "subdomain": "street",
+    "customDomain": "developers-beta.street.co.uk"
+  }
+}
